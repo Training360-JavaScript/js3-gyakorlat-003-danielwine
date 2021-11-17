@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 // Defining the timeout for the test
 const timeout = process.env.SLOWMO ? 6000 : 2500;
 import * as app from '../solutions/app';
